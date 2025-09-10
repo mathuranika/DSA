@@ -1,6 +1,1 @@
-SET autocommit = 0;
-DELETE FROM USERS WHERE ID = 5;
--- ROLLBACK;
-SELECT * FROM USERS;
-COMMIT;
-SET autocommit = 1;
+
