@@ -1,4 +1,4 @@
-# O(n2) complexity
+# O(n2) time complexity
 from typing import List
 
 class Solution:
