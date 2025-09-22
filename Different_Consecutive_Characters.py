@@ -1,5 +1,5 @@
 t = int(input())
-
+# TODO: put in function
 while t > 0:
     n = int(input())
     s = str(input())
