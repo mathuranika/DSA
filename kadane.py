@@ -9,3 +9,19 @@ class Solution:
             if curr_sum < 0:
                 curr_sum = 0
         return max_sum
+
+#Leetcode
+
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+        curr = 0
+        max_sum = float("-inf")
+        n = len(nums)
+        for i in range(0,n):
+            curr += nums[i]
+            max_sum = max(curr,max_sum)
+            if curr<0:
+                curr = 0
+
+        return max_sum
+        
